@@ -20,3 +20,37 @@
 ![](screenshots/op8.png)
 7) Был отменен предыдущий коммит (в результате чего git удалил новодобавленный файл), после чего новый коммит фактически отменил предыдущий
 ![](screenshots/op10.png)
+8) Получили красивый вид лога коммитов
+![](screenshots/op11.png)
+
+# Лог коммитов (примерный)
+```
+git clone
+git config user.name
+git config user.email
+git add
+git commit -m
+git push
+git branch
+git checkout
+git push --set-ipstream origin 
+git log master
+git log ex
+...попытки вызвать конфликт
+git merge
+git branch -d
+
+echo " ">..file
+add ..file
+commit -m
+push
+x3
+git revert HEAD
+git status
+git commit -m "reverted"
+git push
+
+$ git log --pretty=format:"%h- %ad : %s [%an]" --date=short --all
+```
+# Вывод
+В данной лабораторной работе были изучены базовые возможности системы управления версиями, был получен опыт работы с Git Api и опыт работы с локальным и удаленным репозиторие, также был получен опыт работы с Markdown.
